@@ -56,5 +56,58 @@
 
 /* for tablet device */
 @media only screen and (min-width: 688px) and (max-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+  .navbar a {
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  .banner-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .banner-title,
+  .bottom-banner-title {
+    font-size: 36px;
+  }
+  .banner-image {
+    width: 330px;
+    height: 250px;
+  }
+  .players {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    margin: 0px auto;
+  }
+  .footer {
+    margin: 0px;
+  }
+  .footer-img {
+    width: 290px;
+    height: 80px;
+  }
 }
 /* for tablet device */
